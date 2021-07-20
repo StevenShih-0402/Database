@@ -1,0 +1,43 @@
+html{
+    width: 100%;
+    height: 100%;
+    font-family: "Klee One";
+    font-weight: 600;    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bk.jpg) 100% 40%;      /*攝影師：Tirachard Kumtanom，連結：Pexels*/
+    background-size: 200%;
+}
+
+.home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:20px double white;
+    padding: 10px 100px 10px 90px;
+    background: rgba(255,255,255,0.6);
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+ul{
+    font-size: 1.8em;
+    list-style: circle;
+    text-align: center;
+    line-height: 2.1em;
+}
+
+a{
+    color: black;
+    display: inline-block;
+}
+
+a:hover{
+    transform: scale(1.05);
+}

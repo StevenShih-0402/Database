@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>新增聯絡人</title>
+    <link rel="stylesheet" href="styleadd.css">
 </head>
 <body>
     <?php
@@ -31,22 +32,22 @@
             mysqli_close($db);
         }
     ?>
-    <h1>新增聯絡人</h1>
-    <hr>
+    
 
     <form action="add.php" method="post">
+        <h1>新增聯絡人</h1>
         <table>
             <tr>
-                <td>姓名</td>
+                <td>姓名：</td>
                 <td><input type="text" name="name"/></td>
             </tr>
             <tr>
-                <td>電話</td>
+                <td>電話：</td>
                 <td><input type="text" name="tel"/></td>
             </tr>
         </table>
 
-        <input type="submit" value="新增聯絡人"/>        
+        <input type="submit" value="新增"/>        
     </form>
     
     <ul>

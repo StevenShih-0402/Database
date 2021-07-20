@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>更新通訊錄</title>
+    <link rel="stylesheet" href="styleedit.css">
 </head>
 <body>
     <?php
@@ -39,7 +40,6 @@
     ?>
     
     <h1>更新通訊錄</h1>
-    <hr/>
 
     <form action="edit.php?action=update&id=<?php echo $id ?>" method="post">
         <table>
